@@ -2,6 +2,9 @@
 
 ## Explain project
 
+Develop CarGenie a tool for predicting used car prices using public data. The "Vehicle Sales and Market Trends Dataset" provides a comprehensive collection of information pertaining to the sales transactions of various vehicles. This dataset encompasses details such as the year, make, model, trim, body type, transmission type, VIN (Vehicle Identification Number), state of registration, condition rating, odometer reading, exterior and interior colors, seller information, MMR (Manheim Market Report) values, selling price, and sale date.
+
+https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data/data
 
 
 ## Project_Diary
@@ -82,6 +85,39 @@
             12. All saleyears are 2014/2015 year and saleyear are interchangable. 
             13. I plotted a box plot for the condition values and I think it's worth keeping the values.
             14. Lets look at data for individual makes. 
+
+    #03/04/24 Remedy for poor project diary updates.
+            1. I was apparently not saving my edits to the diary. 
+            2. I had really good meetings with Seth (2/28/24) and Nurgul (2/29/24). Super productive really valuable and massively impacted project direction.
+            3. The files inlcuded for this project, and they order they should be viewed, are below. A brief description is provided for each:
+                1. data_exploration.ipynb
+                    Initial deep dive into the dataset. Lot's of human learning here. This was all pre-Seth/Nurgul.
+                2. data_cleaning.ipynb
+                    Post-Seth/Nurgul. Really trying to remove human learning and reinforcing machine learning.
+                3. data_cleaning_no_mmr.ipynb
+                    As above with the mmr data removed. 
+                4. Linear_Regression_Analysis.ipynb
+                    Coin toss to see what I would see and a good place to pick up from class. The conclusion is this dataset needs more advanced analysis methods.
+                5. Multi_Regression_Analysis.ipynb
+                    Picking up from class and workign with the cleaned car sales data set. Very good fun but dangerously addicitive.
+                6. Multi_Regression_Analysis_Body.ipynb.
+                    As above with analysis based on vehicle body type.
+                7. Multi_Regression_Analysis_Body_No_Outliers.ipynb.
+                    As above with analysis based on vehcile body with outliers removed based on Interquartile Range (IQR) method. 
+                8. mulitcolinearity_Analysis.ipynb
+                    I don't understand this outcome. The large number display the greatest co-linearity. I need to review this.
+                9. Random_Forest_Analysis.ipynb
+                    Picking up from class using Random Forest model.
+                10. Random_Forest_Analysis_Body.ipynb
+                    Picking up from class using Random Forest model and using vehicle body type.
+                11. Lasso_Regression.ipynb
+                    Picking from class using this model. This was very fast to run. Interesting.
+                12. Ridge_Regression.ipynb
+                    Picking from class using this model. This was also very fast to run. Interesting.
+                    
+
+
+
             
             
         
